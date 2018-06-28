@@ -190,18 +190,14 @@
 # Section 3 - Part1
 * Ensure each of the test cases in the class `Part1` successfully passes upon completion. See test for details.
 
-### `Pattern getVowelPattern()`
-Create a regex pattern that match any lower case vowel. For example, if I need to match a number I would return `Pattern.compile("[1-9]")`.
-
-
-### `String removeVowel(String words)`
-Given a string, return a new string with all the vowels removed. For example, given `apple`, the method will return `ppl`.
-
-### Function<Integer, Integer> getSquareFunction
-Return a lambda that takes an argument and multiple it by itself. For example, given the argument is two, when I apply the function, it will return 4.
-
-### Boolean isEquals(String object1, String object2)
-Given two Strings, check to see if the content is the same. It is case sensitive. So given `"a"` and `"A"`, the method would return false.
-- If the two objects are null, then return true
-- If one object is null, but the other is not, then return false
-- If the content of the object is that same, then return true. Otherwise, return false.
+1. `Pattern getVowelPattern()`
+    1. Create a regex pattern that match any lower case vowel. For example, if I need to match a number I would return `Pattern.compile("[1-9]")`.
+2. `String removeVowel(String words)`
+    3. Given a string, return a new string with all the vowels removed. For example, given `apple`, the method will return `ppl`.
+4. `Function<Integer, Integer> getSquareFunction`
+    5. Return a lambda that takes an argument and multiple it by itself. For example, given the argument is two, when I apply the function, it will return 4.
+6. `Boolean isEquals(String object1, String object2)`
+    7. Given two Strings, check to see if the content is the same. It is case sensitive. So given `"a"` and `"A"`, the method would return false.
+        - If the two objects are null, then return true
+        - If one object is null, but the other is not, then return false
+        - If the content of the object is that same, then return true. Otherwise, return false.

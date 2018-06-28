@@ -7,3 +7,6 @@ Welcome to your assessment three. You have three hours to complete this assessme
 | **part2**       |   [Interface & Abstract](README-Part2.md) |
 | **part3**       |   [Generic](README-Part3.md) |
 | **part4**       |   [Bubble Sort](README-Part4.md) |
+
+### Bonus
+If you are done before the allotted time, work on the [Java Server](https://git.zipcode.rocks/nhu313/Bonus-Java-Server) lab. It is challenging, but it will help you understand http response and input/output stream better. Enjoy 😝
