@@ -31,4 +31,13 @@ public class HorseTest {
 //
 //        Assert.assertTrue(food.isEaten());
 //    }
+
+//    @Test
+//    public void testKicking(){
+//        Food food = new Food();
+//        Eater horse = new Horse(1);
+//		  Boolean pattedTheFlanks = true;
+//
+//        Assert.assertFalse(horse.kickedMe(pattedTheFlanks));
+//    }
 }
