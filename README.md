@@ -1,5 +1,5 @@
 # Assessment 3
-Welcome to your assessment three. You have three hours to complete this assessment. There are four sections in this assessment. Feel free to skip around. You may consult Google and your notes. But you may not consult another person.
+Welcome to your third Zip Code Wilmington assessment. You have three hours to complete this assessment. There are four sections in this assessment. Feel free to skip around. You may consult Google and your notes. But you may not consult another person.
 
 | Name | Topic |
 | ----------- | ------------ |
