@@ -1,3 +1,7 @@
+# Part 1
+* Ensure each of the test cases in the class `Part1` successfully passes upon completion. See test sources for details.
+
+
 # Section 1 - ArrayUtils
 * Ensure each of the test cases in the class [Arrayutils]() successfully passes upon completion of each of the method stubs in the class [ArrayutilsTest]().
     * `Integer getNumberOfOccurrences(Object[] objectArray, Object objectToCount)`
@@ -187,8 +191,7 @@
       Assert.assertArrayEquals(expected, actual);
   ```
 
-# Section 3 - Part1
-* Ensure each of the test cases in the class `Part1` successfully passes upon completion. See test for details.
+# Section 3 - Vowel Party!
 
 1. `Pattern getVowelPattern()`
     1. Create a regex pattern that match any lower case vowel. For example, if I need to match a number I would return `Pattern.compile("[1-9]")`.
