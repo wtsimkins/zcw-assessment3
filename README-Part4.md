@@ -1,5 +1,5 @@
 # Part 4 - BubbleSort
-The `BubbleSort` class is written for you. There is one test in  `src/test/java/com/zipcoder/assessment3/part4/BubbleSortTest.java`. It is currently failing. Your task is to add at least 3 more tests to the test. Fix the code so it will pass all your tests. Tests you should add should test the following:
+The `BubbleSort` class is written for you. There is one test in  `src/test/java/com/zipcoder/assessment3/part4/BubbleSortTest.java`. It is currently failing. Your task is to add more tests to the `BubbleSortTest` test and fix the code so it will pass all your tests. You should at least test the following condition:
 1. When the array is null
 1. When the array is empty
 2. When there is one element
