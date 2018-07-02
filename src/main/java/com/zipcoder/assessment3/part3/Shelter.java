@@ -17,7 +17,7 @@ public class Shelter <T>{
     }
 
     public T removeFirst() {
-        return T;
+        return null;
     }
 
     public T getOldest() {

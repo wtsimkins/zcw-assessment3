@@ -15,13 +15,9 @@ public class MultiplesDeleter {
      * given an array of integers, named `ints` return an identical array with evens removed
      */
     public Integer[] deleteEvens(Integer[] ints) {
-        List<Integer> t1 = new ArrayList<>(Arrays.asList(ints));
-        for(int i =0; i < t1.size(); i++) {
-            if (i % 2 == 0) {
-                t1.remove(i);
-            }
-        }
-        return t1.toArray(new Integer[t1.size()]);
+        Integer[] filteredArray = Arrays.stream(ints)
+                .filter(e -> !(e % 2 == 0)).toArray(Integer[]::new);
+        return filteredArray;
     }
 
     /**
@@ -30,7 +26,17 @@ public class MultiplesDeleter {
      * given an array of integers, named `ints` return an identical array with odds removed
      */
     public Integer[] deleteOdds(Integer[] ints) {
-        return null;
+//        List<Integer> t1 = new ArrayList<>(Arrays.asList(ints));
+//        for(int i =0; i < t1.size(); i++) {
+//            if (!(i % 2 == 0)) {
+//                t1.remove(i);
+//            }
+//        }
+//        return t1.toArray(new Integer[t1.size()]);
+
+        Integer[] filteredArray = Arrays.stream(ints)
+                .filter(e -> (e % 2 == 0)).toArray(Integer[]::new);
+        return filteredArray;
     }
 
     /**
@@ -39,7 +45,9 @@ public class MultiplesDeleter {
      * given an array of integers, named `ints` return an identical array with numbers indivisible by 3 removed
      */
     public Integer[] deleteMultiplesOf3(Integer[] ints) {
-        return null;
+        Integer[] filteredArray = Arrays.stream(ints)
+                .filter(e -> !(e % 3 == 0)).toArray(Integer[]::new);
+        return filteredArray;
     }
 
     /**
@@ -49,6 +57,8 @@ public class MultiplesDeleter {
      * given an array of integers, named `ints` return an identical array with numbers indivisible by `multiple` removed
      */
     public Integer[] deleteMultiplesOfN(Integer[] ints, int multiple) {
-        return null;
+        Integer[] filteredArray = Arrays.stream(ints)
+                .filter(e -> !(e % multiple == 0)).toArray(Integer[]::new);
+        return filteredArray;
     }
 }

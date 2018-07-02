@@ -69,7 +69,7 @@ public class ArrayUtils {
         int numOfCommon = 0;
         for(int i = 0; i < objectArray.length; i++){
             int temp = getNumberOfOccurrences(objectArray, i);
-            if(temp < numOfCommon){
+            if(temp == 1) {
                 numOfCommon = temp;
                 leastCommon = i;
             }

@@ -1,6 +1,7 @@
 package com.zipcoder.assessment3.part1;
 
 import java.util.function.Function;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Part1 {
@@ -9,7 +10,15 @@ public class Part1 {
      * @return a Pattern that match any vowel
      */
     public static Pattern getVowelPattern() {
-        return null;
+        String s = "hello";
+        int count = 0;
+        Pattern p = Pattern.compile("[aeiou]");
+        Matcher m = p.matcher(s);
+        while (m.find()) {
+            count++;
+        }
+            return p;
+
     }
 
     /**
@@ -18,7 +27,8 @@ public class Part1 {
      * @return
      */
     public static String removeVowel(String words) {
-        return null;
+        words = words.replaceAll("[AEIOUaeiou]", "");
+        return words;
     }
 
     /**
@@ -28,7 +38,8 @@ public class Part1 {
      * @return return a function that will square a number
      */
     public static Function<Integer, Integer> getSquareFunction() {
-        return null;
+        return (Integer x) -> x * x;
+
     }
 
     /**
@@ -41,6 +52,16 @@ public class Part1 {
      * @return return true if they have the same content, false otherwise
      */
     public static Boolean isEquals(String object1, String object2) {
-        return null;
+        if (object1.equalsIgnoreCase(object2)) {
+            return true;
+        } else if (object1.equalsIgnoreCase(null) && object2.equalsIgnoreCase(null)) {
+            return true;
+        } else if (object1 == null && object2.equalsIgnoreCase("1")) {
+            return false;
+        } else if (object1.equalsIgnoreCase(null) && !(object2.equalsIgnoreCase(null))){
+            return false;
+        }
+        return false;
+
     }
 }
